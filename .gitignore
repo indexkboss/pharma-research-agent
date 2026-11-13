@@ -30,9 +30,6 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Assignment source archive
-assignment_source/
-*.zip
 
 # Streamlit secrets
 .streamlit/secrets.toml
