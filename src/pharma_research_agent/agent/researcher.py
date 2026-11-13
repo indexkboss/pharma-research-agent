@@ -35,7 +35,7 @@ def research_subquestions(
     question: str,
     subquestions: list[str],
     vector_store,
-    max_rounds: int = 3,
+    max_rounds: int = 5,#each tool call can generate another API request, increasing execution time and cost.
 ) -> dict[str, Any]:
     """
     Research each subquestion using tools selected dynamically by the LLM.
